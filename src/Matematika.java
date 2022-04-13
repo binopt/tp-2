@@ -36,7 +36,7 @@ public class Matematika {
             faktorial(banyakAngka);
 
             // Konfirmasi keluar program
-            System.out.print("\nKeluar program? [y/n]: ");
+            System.out.print("\n Anda mau ulang? [y/t]: ");
             String keluar = input.next();
             if (keluar.toLowerCase().equals("y")) {
                 break;
